@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Happy Birthday Anchal</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday Anchal">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="loading"></div>
+	<audio class="song" controls loop>
+		<source src="hbd.mp3">
+		</source>
+		Your browser isn't invited for super fun audio time.
+	</audio>
+
+	<!-- Balloons -->
+	<div class="balloons text-center" id="b1">
+		<h2 style="color:#F2B300;">H</h2>
+	</div>
+	<div class="balloons text-center" id="b2">
+		<h2 style="color:#0719D4;">B</h2>
+	</div>
+	<div class="balloons text-center" id="b3">
+		<h2 style="color:#D14D39;">D</h2>
+	</div>
+	<div class="balloons text-center" id="b4">
+		<h2 style="color:#8FAD00;">A</h2>
+	</div>
+	<div class="balloons text-center" id="b5">
+		<h2 style="color:#8377E4;">N</h2>
+	</div>
+	<div class="balloons text-center" id="b6">
+		<h2 style="color:#99C96A;">C</h2>
+	</div>
+	<div class="balloons text-center" id="b7">
+		<h2 style="color:#20CFB4;">H</h2>
+	</div>
+	<div class="balloons text-center" id="b8">
+		<h2 style="color:#8377E4;">A</h2>
+	</div>
+	<div class="balloons text-center" id="b9">
+		<h2 style="color:#0719D4;">L</h2>
+	</div>
+
+	<img src="Balloon-Border.png" width="100%" class="balloon-border">
+
+	<!-- Decorative Elements -->
+	<div class="flowers flower-1">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-2">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-3">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-4">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-5">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-6">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<!-- <div class="flowers flower-7">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-8">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div> -->
+	<div class="flowers flower-9">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-10">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-11">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+	<div class="flowers flower-12">
+		<img src="roses2.png" alt="Flower Decoration">
+	</div>
+
+	<div class="ribbon ribbon-top"></div>
+	<div class="ribbon ribbon-bottom"></div>
+
+	<div class="gift-box gift-box-left">
+		<img src="giftbox.png" alt="Gift Box">
+	</div>
+	<div class="gift-box gift-box-right">
+		<img src="giftbox.png" alt="Gift Box">
+	</div>
+
+	<div class="confetti-container" id="confetti-container"></div>
+	<div class="hearts-container" id="hearts-container"></div>
+
+	<div class="container">
+		<!-- Bulbs -->
+		<div class="row">
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_yellow"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_red"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_blue"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_green"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_pink"></div>
+			</div>
+			<div class="col-md-2 col-xs-2 bulb-holder">
+				<div class="bulb" id="bulb_orange"></div>
+			</div>
+		</div>
+
+		<!-- Banner -->
+		<div class="row mt-4">
+			<div class="col-md-12 text-center">
+				<img src="banner.png" class="bannar">
+			</div>
+		</div>
+
+		<!-- Cake -->
+		<div class="row cake-cover">
+			<div class="col-md-12 text-center">
+				<div class="cake">
+					<div class="plate"></div>
+					<div class="layer layer-bottom"></div>
+					<div class="layer layer-middle"></div>
+					<div class="layer layer-top"></div>
+					<div class="icing"></div>
+					<div class="drip drip1"></div>
+					<div class="drip drip2"></div>
+					<div class="drip drip3"></div>
+					<div class="candle">
+						<div class="flame" id="flame"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Birthday Message -->
+		<div class="row message">
+			<div class="col-md-12">
+				<p>Hey My Love,</p>
+				<p>Even though we've been apart for the last six months, thoughts of you warm my heart every single day.</p>
+				<p>It feels like you’re right here with me.</p>
+				<p>Another beautiful year of your life has passed,</p>
+				<p>like a gentle breeze carrying memories of us.</p>
+				<p><strong>But</strong></p>
+				<p>did you realize...?</p>
+				<p>this day is still so special,</p>
+				<p>it belongs completely to you.</p>
+				<p>and so...</p>
+				<p>we'll celebrate it</p>
+				<p>more joyfully than ever before</p>
+				<p>I want to gift you...</p>
+				<p>a piece of my happiness</p>
+				<p>in honor of your birthday</p>
+				<p>Thank you for being in my life</p>
+				<p>Thank you for existing, Beautiful</p>
+				<p>thank you for everything</p>
+				<p>I wish you all the best things in the world</p>
+				<p>May your path be smooth</p>
+				<p>May every dream unfold for you</p>
+				<p>Keep reaching for your ambitions</p>
+				<p>Feel as free as a bird in the open sky</p>
+				<p>Because now...</p>
+				<p>an exciting new chapter begins</p>
+				<p>indeed..</p>
+				<p>yet...</p>
+				<p>don't worry</p>
+				<p>because...</p>
+				<p>God has your back</p>
+				<p>and this year holds wonderful promises</p>
+				<p>I hope you find joy in every moment</p>
+				<p>Keep that radiant spirit shining</p>
+				<p>Savor every second...</p>
+				<p>let your smile light up each memory</p>
+				<p>and cherish it forever...</p>
+				<p>Finally...</p>
+				<p>let me say it once more</p>
+				<p>Happy Birthday, Sweetheart!!!</p>
+			</div>
+		</div>
+
+		<!-- Photo Slider Section -->
+		<div class="gallery">
+			<button class="gallery-close"><i class="fas fa-times"></i></button>
+			<div class="row">
+				<div class="col-12 text-center mb-4">
+					<h2 class="text-white">Our Beautiful Memories</h2>
+					<p class="text-white">Each photo tells a story of our journey together</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 col-lg-6 position-relative">
+					<div class="slider-container">
+						<div class="memory-slide" data-slide="1">
+							<div class="gallery-item">
+								<img src="1.jpg" alt="Our First Date" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Budhanilkantha Mandir</h3>
+									<p class="text-white">Remember that amazing coffee shop where we talked for hours? I
+										knew that day you were special.</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="2" style="display: none;">
+							<div class="gallery-item">
+								<img src="2.jpg" alt="Beach Vacation" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Auburn</h3>
+									<p class="text-white">Those five days at the beach were magical. I'll never forget
+										the sunsets we watched together.</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="3" style="display: none;">
+							<div class="gallery-item">
+								<img src="3.jpg" alt="Movie Night" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Baneshwor</h3>
+									<p class="text-white">Our weekly movie nights are always something I look forward to
+										- cuddling with you is the best feeling.</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="4" style="display: none;">
+							<div class="gallery-item">
+								<img src="4.jpg" alt="Dinner Date" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Baneshwor Again</h3>
+									<p class="text-white">That candlelight dinner for our anniversary was so romantic.
+										You looked absolutely stunning.</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="5" style="display: none;">
+							<div class="gallery-item">
+								<img src="5.jpg" alt="Holiday Trip" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">It was a lovely, raining day</h3>
+									<p class="text-white">Our weekend getaway to the mountains was such an adventure.
+										Let's plan another trip soon!</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="6" style="display: none;">
+							<div class="gallery-item">
+								<img src="6.jpg" alt="Last Birthday" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">And it was a stomach full day</h3>
+									<p class="text-white">Your smile when you saw your surprise party last year was
+										priceless. Here's to making this one even better!</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="7" style="display: none;">
+							<div class="gallery-item">
+								<img src="7.jpg" alt="Last Birthday" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Meri Maaya</h3>
+									<p class="text-white">Your smile when you saw your surprise party last year was
+										priceless. Here's to making this one even better!</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="8" style="display: none;">
+							<div class="gallery-item">
+								<img src="8.jpg" alt="Last Birthday" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Beautiful time of my life</h3>
+									<p class="text-white">Your smile when you saw your surprise party last year was
+										priceless. Here's to making this one even better!</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="9" style="display: none;">
+							<div class="gallery-item">
+								<img src="9.jpg" alt="Last Birthday" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Love You Sweetie</h3>
+									<p class="text-white">Your smile when you saw your surprise party last year was
+										priceless. Here's to making this one even better!</p>
+								</div>
+							</div>
+						</div>
+						<div class="memory-slide" data-slide="10" style="display: none;">
+							<div class="gallery-item">
+								<img src="10.jpg" alt="Last Birthday" class="img-fluid">
+								<div class="slide-caption">
+									<h3 class="text-white">Chef Keti Moh</h3>
+									<p class="text-white">Your smile when you saw your surprise party last year was
+										priceless. Here's to making this one even better!</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="slider-nav">
+							<button class="slider-btn prev-slide"><i class="fas fa-chevron-left"></i></button>
+							<div class="slide-dots">
+								<span class="slide-dot active" data-slide="1"></span>
+								<span class="slide-dot" data-slide="2"></span>
+								<span class="slide-dot" data-slide="3"></span>
+								<span class="slide-dot" data-slide="4"></span>
+								<span class="slide-dot" data-slide="5"></span>
+								<span class="slide-dot" data-slide="6"></span>
+								<span class="slide-dot" data-slide="7"></span>
+								<span class="slide-dot" data-slide="8"></span>
+								<span class="slide-dot" data-slide="9"></span>
+								<span class="slide-dot" data-slide="10"></span>
+
+							</div>
+							<button class="slider-btn next-slide"><i class="fas fa-chevron-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<video class="fullscreen-video" id="myVideo" autoplay>
+			<source src="hbda.mp4">
+			Your browser does not support the video tag.
+		</video>
+
+		<!-- Button Controls -->
+		<div class="row mt-5">
+			<div class="col-md-6 text-center col-md-offset-3 mx-auto">
+				<button class="btn btn-primary" id="turn_on">Turn On Lights </button>
+				<button class="btn btn-primary" id="play">Play Background Music</button>
+				<button class="btn btn-primary" id="bannar_coming">Let's Decorate!</button>
+				<button class="btn btn-primary" id="balloons_flying">Fly With Balloons</button>
+				<button class="btn btn-primary" id="cake_fadein">Cake Cake, Where's it?</button>
+				<button class="btn btn-primary" id="light_candle"> Maile banako Babe!!! Candle pani baalam na
+					!!</button>
+				<button class="btn btn-primary" id="wish_message">Let's Celebrate Babe!</button>
+				<button class="btn btn-primary" id="story">A Message For You</button>
+				<button class="btn btn-primary" id="show_gallery">View Our Memories</button>
+				<button class="btn btn-primary" id="show_gallery">Happy Birthday Once again Sweetheart 💞</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
